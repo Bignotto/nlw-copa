@@ -53,9 +53,9 @@ model Match {
   date DateTime
 
   homeTeamCountryCode String
-  homeTeamScore       Int
+  homeTeamScore       Int?
   awayTeamCountryCode String
-  awayTeamScore       Int
+  awayTeamScore       Int?
 
   guesses Guess[]
 }
